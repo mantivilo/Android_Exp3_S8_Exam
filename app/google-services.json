@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "842459659597",
+    "firebase_url": "https://readtheworldapp-default-rtdb.firebaseio.com",
+    "project_id": "readtheworldapp",
+    "storage_bucket": "readtheworldapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:842459659597:android:ace42260f12ba131890b04",
+        "android_client_info": {
+          "package_name": "com.example.calendapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMRFWa79OZqHcNBNMBLeoQdkl7pkOXH_0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

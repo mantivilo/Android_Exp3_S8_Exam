@@ -1,0 +1,62 @@
+[versions]
+agp = "8.5.1"
+androidxEspressoCore = "3.5.1"
+androidxJunit = "1.1.5"
+coreTesting = "2.2.0"
+espressoCoreVersion = "3.5.0"
+kotlin = "1.9.0"
+coreKtx = "1.13.1"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+lifecycleRuntimeKtx = "2.8.4"
+activityCompose = "1.9.1"
+composeBom = "2024.04.01"
+googleGmsGoogleServices = "4.4.2"
+firebaseDatabase = "21.0.0"
+junitJunit = "4.12"
+mockitoCore = "4.3.1"
+mockitoInline = "4.3.1"
+robolectric = "4.9"
+rules = "1.6.1"
+uiTestJunit4Android = "1.7.2"
+junitKtx = "1.2.1"
+coreKtxVersion = "1.6.1"
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-core-testing = { module = "androidx.arch.core:core-testing", version.ref = "coreTesting" }
+androidx-espresso-core-v350 = { module = "androidx.test.espresso:espresso-core", version.ref = "espressoCoreVersion" }
+androidx-espresso-core-v351 = { module = "androidx.test.espresso:espresso-core", version.ref = "androidxEspressoCore" }
+androidx-espresso-intents = { module = "androidx.test.espresso:espresso-intents", version.ref = "espressoCoreVersion" }
+androidx-junit-v115 = { module = "androidx.test.ext:junit", version.ref = "androidxJunit" }
+androidx-rules = { module = "androidx.test:rules", version.ref = "rules" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
+androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+androidx-ui = { group = "androidx.compose.ui", name = "ui" }
+androidx-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+androidx-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+androidx-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+androidx-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
+firebase-database = { group = "com.google.firebase", name = "firebase-database", version.ref = "firebaseDatabase" }
+junit-junit = { group = "junit", name = "junit", version.ref = "junitJunit" }
+androidx-ui-test-junit4-android = { group = "androidx.compose.ui", name = "ui-test-junit4-android", version.ref = "uiTestJunit4Android" }
+androidx-junit-ktx = { group = "androidx.test.ext", name = "junit-ktx", version.ref = "junitKtx" }
+mockito-core = { module = "org.mockito:mockito-core", version.ref = "mockitoCore" }
+mockito-inline = { module = "org.mockito:mockito-inline", version.ref = "mockitoInline" }
+robolectric = { module = "org.robolectric:robolectric", version.ref = "robolectric" }
+ui-test-junit4 = { module = "androidx.compose.ui:ui-test-junit4" }
+ui-test-manifest = { module = "androidx.compose.ui:ui-test-manifest" }
+core-ktx = { group = "androidx.test", name = "core-ktx", version.ref = "coreKtxVersion" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+google-gms-google-services = { id = "com.google.gms.google-services", version.ref = "googleGmsGoogleServices" }
+
